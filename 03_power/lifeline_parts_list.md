@@ -1,6 +1,6 @@
-# ライフラインケーブルのパーツリスト
+#Lifeline cable parts list
 
-| 部品番号 | デバイス名 | 値/型番 |      備考 |
+Part number | Device name | Value / Model number | Remarks |
 | --- | --- | --- | --- |
-| CN1-7 | ヘッダソケットMILスタンダード | 10P (2x5) 2.5mmピッチ |       7個必要 |
-|  | フラットケーブル10芯 | 55cm |
+CN1-7 | Header Socket MIL Standard | 10P (2x5) 2.5mm Pitch | 7 Pieces Required |
+| | Flat cable 10 cores | 55cm | 
