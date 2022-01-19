@@ -1,43 +1,37 @@
-# Analog2.0
+*This fork is just for storing english translation of the documentation, check the original for any updates*
 
-Analog2.0 は、はじめての人でも作りやすいように設計されたモジュラーシステムシンセサイザーです。
+Analog2.0 is a modular system synthesizer designed to be easy to make even for first-time users.
 
-このリポジトリには、Analog2.0 の製作を支援するための以下のようなリソースが置いてあります
+This repository contains the following resources to assist in the production of Analog2.0:
 
-- 回路図のイメージファイル
-- 基板のレイアウトのファイル
-- パネルなどのアートワークファイル
-- ファームウェアとソースコード
+- Schematic image file
+- Board layout file
+- Artwork files such as panels
+- Firmware and source code
 
-また、製作ガイドをこのリポジトリの Wiki ページに掲載しています。
+We also have a production guide on the Wiki page of this repository.
 
-https://github.com/naokiiwakami/analog2.0/wiki
+https://github.com/naokiiwakami/analog2.0/wiki (translated version will be at: https://github.com/tendigits/analog2.0/wiki)
 
+Analog2.0 consists of the following major modules. In this repository, there is a directory for each module, and resources for making the module are placed under each directory.
 
+- `02_panel` panel
+- `03_power` Power supply module
+- `04_noise_mixer` Noise generator and mixer
+- `05_vca VCA` --Voltage Control Amplifier
+- `06_vco VCO` --Voltage Controlled Oscillator
+- `07_eg` Envelope Generator
+- `08_lfo` LFO --Low frequency oscillator
+- `09_vcf` VCF --Voltage control filter
+- `10_miniboard MIDI` / CV converter
 
-Analog2.0 は、以下の主要モジュールで構成されています。このリポジトリには、モジュールごとのディレクトリがあり、各ディレクトリの下にそのモジュール製作のためのリソースが置いてあります。
+For reference, there is something in the others directory that does not conform to the Analog2.0 system but can be used as a synthesizer module.
 
-- `02_panel` パネル
-- `03_power` 電源モジュール
-- `04_noise_mixer` ノイズ・ジェネレータとミキサ
-- `05_vca` VCA -- 電圧制御増幅器
-- `06_vco` VCO -- 電圧制御発振器
-- `07_eg` エンベロープ・ジェネレータ
-- `08_lfo` LFO -- 低周波発振器
-- `09_vcf` VCF -- 電圧制御フィルタ
-- `10_miniboard` MIDI / CV 変換器
+- Ring modulator
+- Graphic equalizer
+- Resonator
+- Phase shifter
+- Gate delay
+- Analog sequencer
 
-
-
-参考として、Analog2.0 のシステムに準じてはいないけれどもシンセサイザーのモジュールとして使えるものが `others` ディレクトリにおいてあります。
-
-- リングモジュレータ
-- グラフィックイコライザ
-- レゾネータ
-- フェーズシフタ
-- ゲートディレイ
-- アナログシーケンサ
-
-
-
-各モジュールのドキュメントは現在メインテナンスしていません。最新のドキュメントは、書籍「達人と作るアナログシンセサイザー自作入門　改訂版2017」として出版されています
+The documentation for each module is not currently maintained. The latest document is published as the book "Introduction to Self-made Analog Synthesizers Made with Masters Revised Edition 2017".
