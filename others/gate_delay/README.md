@@ -1,14 +1,14 @@
-# ゲートディレイ
+#Gate delay
 
-## 概要
+## Overview
 
-ゲートディレイは入力されたゲート信号を遅延させて出力させます。単一出力と加算出力を持ち、単一出力では遅延したゲート信号のみを出力し、加算出力ではもとのゲート信号と加えます。
+The gate delay delays the input gate signal and outputs it. It has a single output and an additive output. The single output outputs only the delayed gate signal, and the additive output adds it to the original gate signal.
 
-## このディレクトリに含まれるリソース
+## Resources contained in this directory
 
-- gate_delay.ce3: 回路図ファイル (BSch3v)
-- gate_delay_sch.pdf, gate_delay_sch.png: 回路図イメージファイル
+--gate_delay.ce3: Schematic file (BSch3v)
+--gate_delay_sch.pdf, gate_delay_sch.png: Schematic image file
 
-## 回路図
+## circuit diagram
 
-![gate delay](gate_delay_sch.png)
+! [gate delay] (gate_delay_sch.png)

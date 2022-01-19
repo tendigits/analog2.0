@@ -1,60 +1,60 @@
-# Strict Gate ControlLFO モジュールのパーツリスト
+#Strict Gate Control LFO module parts list
 
-### LFOの製作に必要な部品（基板内）
+### Parts required for LFO production (inside the board)
 
-| 部品番号 | デバイス名        | 値/型番             | 備考                                       |
-| ---- | ------------ | ---------------- | ---------------------------------------- |
-| C1   | 積層セラミックコンデンサ | 0.47μF           |                                          |
-| C2   | 積層セラミックコンデンサ | 0.1μF            |                                          |
-| C3   | 電解コンデンサ      | 10μF 25V         |                                          |
-| C4   | 積層セラミックコンデンサ | 0.1μF            |                                          |
-| C5   | 電解コンデンサ      | 100μF 25V        |                                          |
-| C6   | 積層セラミックコンデンサ | 0.1μF            |                                          |
-| C7   | 電解コンデンサ      | 100μF 25V        |                                          |
-| C8   | 積層セラミックコンデンサ | 0.1μF            |                                          |
-| C9   | 積層セラミックコンデンサ | 1μF              |                                          |
-| D1   | ダイオード        | 1N4148           |                                          |
-| D2   | ダイオード        | 1N4148           |                                          |
-| IC1  | オペアンプ        | TL071            |                                          |
-| IC2  | オペアンプ        | TL072            |                                          |
-| JP1  | ピンヘッダ        | 2.5mmピッチ 2x1     | Strict Gate Control                      |
-| JP2  | ピンヘッダ        | 2.5mmピッチ 2x1     | Delay Out                                |
-| JP3  | ピンヘッダ        | 2.5mmピッチ 3x1     | Gate In                                  |
-| JP4  | ピンヘッダ        | 2.5mmピッチ 3x1     | Delay Source                             |
-| JP5  | ピンヘッダ        | 2.5mmピッチ 5x2 L字型 | Lifeline                                 |
-| JP6  | ピンヘッダ        | 2.5mmピッチ 2x1     | Triangular Out                           |
-| JP7  | ピンヘッダ        | 2.5mmピッチ 2x1     | Rectangular Out                          |
-| Q1   | トランジスタ       | 2N3906           |                                          |
-| Q2   | トランジスタ       | 2N3904           |                                          |
-| Q3   | トランジスタ       | 2N3904           |                                          |
-| Q4   | トランジスタ       | 2N3904           |                                          |
-| R1   | 抵抗器          | 10kΩ 1/4W 5%     |                                          |
-| R2   | 抵抗器          | 100kΩ 1/4W 5%    |                                          |
-| R3   | 抵抗器          | 6.8kΩ 1/4W 5%    |                                          |
-| R4   | 抵抗器          | 150kΩ 1/4W 5%    |                                          |
-| R5   | 抵抗器          | 220Ω 1/4W 5%     |                                          |
-| R6   | 抵抗器          | 1kΩ 1/4W 5%      |                                          |
-| R7   | 抵抗器          | 150kΩ 1/4W 5%    |                                          |
-| R8   | 抵抗器          | 10kΩ 1/4W 5%     |                                          |
-| R9   | 抵抗器          | 47kΩ 1/4W 5%     |                                          |
-| R10  | 可変抵抗         | 50kΩ A           | Delay                                    |
-| R11  | 抵抗器          | 47kΩ 1/4W 5%     |                                          |
-| R12  | 抵抗器          | 47kΩ 1/4W 5%     |                                          |
-| R13  | 抵抗器          | 10kΩ 1/4W 5%     |                                          |
-| R14  | 抵抗器          | 47kΩ 1/4W 5%     |                                          |
-| R15  | 抵抗器          | 15kΩ 1/4W 5%     |                                          |
-| R16  | 抵抗器          | 33kΩ 1/4W 5%     |                                          |
-| R17  | 抵抗器          | 1kΩ 1/4W 5%      |                                          |
-| R18  | 抵抗器          | 5.6kΩ 1/4W 5%    | ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) 初版から値を変更 |
-| R19  | 抵抗器          | 4.7kΩ 1/4W 5%    | ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) 初版から値を変更 |
-| R20  | 抵抗器          | 7.5kΩ 1/4W 5%    |                                          |
-| R21  | 可変抵抗         | 50kΩ A           | Frequency                                |
-| R22  | 抵抗器          | 47Ω 1/4W 5%      |                                          |
+Part number | Device name | Value / Model number | Remarks |
+| ---- | ------------ | ---------------- | -------------- -------------------------- |
+| C1 | Multilayer Ceramic Capacitors | 0.47μF | |
+| C2 | Multilayer Ceramic Capacitors | 0.1μF | |
+| C3 | Electrolytic Capacitors | 10μF 25V | |
+| C4 | Multilayer Ceramic Capacitors | 0.1μF | |
+| C5 | Electrolytic Capacitors | 100μF 25V | |
+C6 | Multilayer Ceramic Capacitors | 0.1μF | |
+| C7 | Electrolytic Capacitors | 100μF 25V | |
+| C8 | Multilayer Ceramic Capacitors | 0.1μF | |
+C9 | Multilayer Ceramic Capacitors | 1μF | |
+| D1 | Diode | 1N4148 | |
+| D2 | Diode | 1N4148 | | |
+IC1 | Operational amplifier | TL071 | |
+IC2 | Operational amplifier | TL072 | |
+JP1 | Pin Header | 2.5mm Pitch 2x1 | Strict Gate Control |
+JP2 | Pin Header | 2.5mm Pitch 2x1 | Delay Out |
+JP3 | Pin Header | 2.5mm Pitch 3x1 | Gate In |
+JP4 | Pin Header | 2.5mm Pitch 3x1 | Delay Source |
+JP5 | Pin header | 2.5mm pitch 5x2 L-shaped | Lifeline |
+JP6 | Pin Header | 2.5mm Pitch 2x1 | Triangular Out |
+JP7 | Pin Header | 2.5mm Pitch 2x1 | Rectangular Out |
+Q1 | Transistor | 2N3906 | |
+Q2 | Transistor | 2N3904 | |
+Q3 | Transistor | 2N3904 | |
+Q4 | Transistor | 2N3904 | |
+| R1 | Resistor | 10kΩ 1 / 4W 5% | |
+| R2 | Resistor | 100kΩ 1 / 4W 5% | |
+| R3 | Resistor | 6.8kΩ 1 / 4W 5% | |
+| R4 | Resistor | 150kΩ 1 / 4W 5% | |
+| R5 | Resistor | 220Ω 1 / 4W 5% | |
+| R6 | Resistor | 1kΩ 1 / 4W 5% | |
+| R7 | Resistor | 150kΩ 1 / 4W 5% | |
+| R8 | Resistor | 10kΩ 1 / 4W 5% | |
+| R9 | Resistor | 47kΩ 1 / 4W 5% | |
+R10 | Variable resistor | 50kΩ A | Delay | Delay |
+| R11 | Resistor | 47kΩ 1 / 4W 5% | |
+| R12 | Resistor | 47kΩ 1 / 4W 5% | |
+| R13 | Resistor | 10kΩ 1 / 4W 5% | |
+| R14 | Resistor | 47kΩ 1 / 4W 5% | |
+| R15 | Resistor | 15kΩ 1 / 4W 5% | |
+| R16 | Resistor | 33kΩ 1 / 4W 5% | |
+| R17 | Resistor | 1kΩ 1 / 4W 5% | |
+R18 | Resistor | 5.6kΩ 1 / 4W 5% |! [# F03c15] (https://placehold.it/15/f03c15/000000?text=+) Change the value from the first edition |
+R19 | Resistor | 4.7kΩ 1 / 4W 5% |! [# F03c15] (https://placehold.it/15/f03c15/000000?text=+) Change the value from the first edition |
+| R20 | Resistor | 7.5kΩ 1 / 4W 5% | |
+| R21 | Variable resistor | 50kΩ A | Frequency |
+| R22 | Resistor | 47Ω 1 / 4W 5% | |
 
-### LFOの製作に必要な部品（基板外）
+### Parts required for LFO production (outside the board)
 
-| 部品番号 | デバイス名        | 値/型番   | 備考              |
+Part number | Device name | Value / Model number | Remarks |
 | ---- | ------------ | ------ | --------------- |
-| J1   | 3.5mm ピンジャック |        | Triangular Out  |
-| J2   | 3.5mm ピンジャック |        | Rectangular Out |
-| J3   | 3.5mm ピンジャック | スイッチつき | Trigger In      |
+J1 | 3.5mm pin jack | | Triangular Out |
+| J2 | 3.5mm pin jack | | Rectangular Out |
+J3 | 3.5mm pin jack | with switch | Trigger In |

@@ -1,14 +1,14 @@
-# グラッフィック・イコライザ
+#Graffic equalizer
 
-## 概要
+## Overview
 
-グラフィックイコライザは、多数並んだ周波数バンドごとに共振フィルタを持っており、周波数バンドごとに周波数特性を強調したり弱めたりできます。このグラフィックイコライザには、1オクターブごとの7バンドがあります。
+The graphic equalizer has a resonance filter for each of a large number of frequency bands, and the frequency characteristics can be emphasized or weakened for each frequency band. This graphic equalizer has 7 bands per octave.
 
-## このディレクトリに含まれるリソース
+## Resources contained in this directory
 
-- graphic_equalizer.CE3: 回路図ファイル (BSch3v)
-- graphic_equalizer_sch.pdf, graphic_equalizer_sch.png: 回路図イメージファイル
+--graphic_equalizer.CE3: Schematic file (BSch3v)
+--graphic_equalizer_sch.pdf, graphic_equalizer_sch.png: Schematic image file
 
-## 回路図
+## circuit diagram
 
-![graphic equalizer](graphic_equalizer_sch.png)
+! [graphic equalizer] (graphic_equalizer_sch.png)

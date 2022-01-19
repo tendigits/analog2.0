@@ -1,18 +1,18 @@
-# アナログシーケンサ
+# Analog sequencer
 
-## 概要
+## Overview
 
-アナログシーケンサはCVを発生するボリュームが並んでおり、これを逐次切り替えることでCVのパタンを発生します。ここでの作例は、8ステップのシーケンサが2個並んだ構造になっています。これを直列に走らせると16ステップ1系統のシーケンサになります。並列に走らせると8ステップ2系統のシーケンサになります。parrarel/serialスイッチで切り換えられます。また、One ShotスイッチをONにすると、一回だけシーケンスを再生して停止します。
+In the analog sequencer, the volumes that generate CV are lined up, and by switching these sequentially, the pattern of CV is generated. The example here has a structure in which two 8-step sequencers are lined up. If this is run in series, it becomes a 16-step 1-system sequencer. When run in parallel, it becomes an 8-step 2-system sequencer. It can be switched with the parrarel / serial switch. Also, when the One Shot switch is turned on, the sequence is played and stopped only once.
 
-CVは、Parrarelモードでは、CV Out1、CV Out2から別々に2系統が出力されます。Serialモードでは、CV Out1、CV Out2どちらからも同等の16ステップ分の一系統が出力されます。
+In Parrarel mode, two CVs are output separately from CV Out1 and CV Out2. In Serial mode, the same 16-step system is output from both CV Out1 and CV Out2.
 
-## このディレクトリに含まれるリソース
+## Resources contained in this directory
 
-- analog_sequencer_sch.pdf, analog_sequencer_sch.png: 回路図イメージファイル
-- Eagle ファイル、Eagle ver. 5.12 で作成しています。プリント基板レイアウトファイルは未作成です。
-  - eagle/eagle.epf - プロジェクトファイル
-  - eagle/analog_sequencer.sch - 回路図ファイル
+--analog_sequencer_sch.pdf, analog_sequencer_sch.png: Schematic image file
+--Created with Eagle file, Eagle ver. 5.12. The printed circuit board layout file has not been created.
+  --eagle / eagle.epf --project file
+  --eagle / analog_sequencer.sch --schematic file
 
-## 回路図
+## circuit diagram
 
-![analog sequencer](analog_sequencer_sch.png)
+! [analog sequencer] (analog_sequencer_sch.png)

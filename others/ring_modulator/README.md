@@ -1,14 +1,14 @@
-# リング・モジュレータ
+#Ring modulator
 
-## 概要
+## Overview
 
-リングモジュレータは、ピッチ感はあるのに音階がはっきりしない音を作るのに向いているモジュールです。2系統の入力と一系統の出力を持ちます。2つの入力を掛け合わせて出力を得ます。
+The ring modulator is a module that is suitable for creating sounds that have a sense of pitch but do not have a clear scale. It has two inputs and one output. Multiply the two inputs to get the output.
 
-## このディレクトリに含まれるリソース
+## Resources contained in this directory
 
-- ring_modulator.ce3: 回路図ファイル (BSch3v)
-- gate_delay_sch.pdf, gate_delay_sch.png: 回路図イメージファイル
+--ring_modulator.ce3: Schematic file (BSch3v)
+--gate_delay_sch.pdf, gate_delay_sch.png: Schematic image file
 
-## 回路図
+## circuit diagram
 
-![ring modulator](ring_modulator_sch.png)
+! [ring modulator] (ring_modulator_sch.png)

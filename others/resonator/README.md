@@ -1,17 +1,17 @@
-# レゾネータ
+#Resonator
 
-## 概要
+## Overview
 
-レゾネータは「共振器」という意味です。入力信号に周波数特性のピークをつけるフィルタです。グラフィックイコライザと比べて一般的にバンド数が少なく、その代わりフィルタの中心周波数と共振の鋭さが細かく調整できます。こういったフィルタは楽器固有の共鳴などの現象と同じような効果を得るのに向いているため、音声に似た音を作ったり、楽器音をより本物らしくしたりできます。このレゾネータは3個のフィルタを持っています。
+Resonator means "resonator". This is a filter that adds a peak of frequency characteristics to the input signal. It generally has fewer bands than a graphic equalizer, but instead allows finer adjustments to the center frequency and resonance sharpness of the filter. These filters are well suited to produce effects similar to instrument-specific resonances and other phenomena, allowing you to create sounds that resemble voice or make instrument sounds more authentic. This resonator has 3 filters.
 
-## このディレクトリに含まれるリソース
+## Resources contained in this directory
 
-- resonator_sch.pdf, resonator_sch.png: 回路図イメージファイル
-- Eagle ファイル、Eagle ver. 5.12 で作成しています
-  - eagle/eagle.epf - プロジェクトファイル
-  - eagle/resonator2.sch - 回路図ファイル
-  - eagle/resonator2.brd - 基板レイアウトファイル
+--resonator_sch.pdf, resonator_sch.png: Schematic image file
+--Eagle file, created with Eagle ver. 5.12
+  --eagle / eagle.epf --project file
+  --eagle / resonator2.sch --schematic file
+  --eagle / resonator2.brd --Board layout file
 
-## 回路図
+## circuit diagram
 
-![resonator](resonator_sch.png)
+! [resonator] (resonator_sch.png)

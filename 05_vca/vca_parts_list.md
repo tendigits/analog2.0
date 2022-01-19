@@ -1,60 +1,60 @@
-# VCA モジュールのパーツリスト
+#VCA module parts list
 
-### VCAの製作に必要な部品（基板上）
+### Parts required for VCA production (on board)
 
-| 部品番号  | デバイス名        | 値                 | 備考                 |
-| ----- | ------------ | ----------------- | ------------------ |
-| C1    | 電解コンデンサ      | 100μF 25V         |                    |
-| C2    | 電解コンデンサ      | 100μF 25V         |                    |
-| C3    | 電解コンデンサ      | 100μF 25V         |                    |
-| C4    | セラミックコンデンサ   | 100pF             |                    |
-| C5    | 積層セラミックコンデンサ | 0.1μF             |                    |
-| C6    | 積層セラミックコンデンサ | 0.1μF             |                    |
-| D1    | ダイオード        | 1N4148            |                    |
-| D2    | ダイオード        | 1N4148            |                    |
-| D3    | ダイオード        | 1N4148            |                    |
-| IC1   | オペアンプ        | TL072             |                    |
-| JP1   | ピンヘッダ        | 2.5mmピッチ 3P       | EG/Gate Select     |
-| JP2   | ピンヘッダ        | 2.5mmピッチ 2P       | EG In              |
-| JP3   | ピンヘッダ        | 2.5mmピッチ 2P       | Audio In           |
-| JP4   | ピンヘッダ        | 2.5mmピッチ 2P       | Audio Out          |
-| JP5   | ボックスピンヘッダ    | 2.5mmピッチ 2x5P L字型 | ライフライン             |
-| JP6   | ピンヘッダ        | 2.5mmピッチ 2P       | Ext CV             |
-| Q1    | トランジスタ       | 2N3904            |                    |
-| Q2    | トランジスタ       | 2N3904            |                    |
-| Q3    | トランジスタ       | 2N3904            |                    |
-| R1    | 抵抗器          | 39kΩ              |                    |
-| R2    | 抵抗器          | 22kΩ              |                    |
-| R3    | 抵抗器          | 22kΩ              |                    |
-| R4    | 抵抗器          | 47kΩ              |                    |
-| R5    | 抵抗器          | 10kΩ              |                    |
-| R6    | 抵抗器          | 1kΩ               |                    |
-| R7    | 抵抗器          | 10kΩ              |                    |
-| R8    | 抵抗器          | 150kΩ             |                    |
-| R9    | 抵抗器          | 100kΩ             |                    |
-| R10   | 抵抗器          | 1MΩ               |                    |
-| R11   | 抵抗器          | 100kΩ             |                    |
-| R12   | 抵抗器          | 150kΩ             |                    |
-| R13   | 抵抗器          | 47kΩ              |                    |
-| R14   | 抵抗器          | 1kΩ               |                    |
-| R15   | 抵抗器          | 1kΩ               |                    |
-| R16   | 抵抗器          | 22kΩ              |                    |
-| R17   | 抵抗器          | 6.8kΩ             |                    |
-| R18   | 抵抗器          | 68kΩ              |                    |
-| R19   | 抵抗器          | 47kΩ              |                    |
-| R20   | 抵抗器          | 22kΩ              |                    |
-| TRIM1 | 半固定抵抗        | 1kΩ               |                    |
-| TRIM2 | 半固定抵抗        | 50kΩ              |                    |
-| TRIM3 | 半固定抵抗        | 50kΩ              |                    |
-| VR1   | 可変抵抗         | 50kΩA             | 基板垂直じか付け 2.5mm ピッチ |
-| VR2   | 可変抵抗         | 50kΩA             | 基板垂直じか付け 2.5mm ピッチ |
-| VR3   | 可変抵抗         | 50kΩA             | 基板垂直じか付け 2.5mm ピッチ |
+Part number | Device name | Value | Remarks |
+| ----- | ------------ | ----------------- | ------------ ------ |
+| C1 | Electrolytic Capacitors | 100μF 25V | |
+| C2 | Electrolytic Capacitors | 100μF 25V | |
+| C3 | Electrolytic Capacitors | 100μF 25V | |
+| C4 | Ceramic Capacitors | 100pF | |
+C5 | Multilayer Ceramic Capacitors | 0.1μF | |
+C6 | Multilayer Ceramic Capacitors | 0.1μF | |
+| D1 | Diode | 1N4148 | |
+| D2 | Diode | 1N4148 | | |
+| D3 | Diode | 1N4148 | |
+IC1 | Operational amplifier | TL072 | |
+JP1 | Pin Header | 2.5mm Pitch 3P | EG / Gate Select |
+JP2 | Pin Header | 2.5mm Pitch 2P | EG In |
+JP3 | Pin Header | 2.5mm Pitch 2P | Audio In |
+JP4 | Pin Header | 2.5mm Pitch 2P | Audio Out |
+JP5 | Box pin header | 2.5mm pitch 2x5P L-shaped | Lifeline |
+JP6 | Pin Header | 2.5mm Pitch 2P | Ext CV |
+Q1 | Transistor | 2N3904 | |
+Q2 | Transistor | 2N3904 | |
+Q3 | Transistor | 2N3904 | |
+| R1 | Resistor | 39kΩ | |
+| R2 | Resistor | 22kΩ | |
+| R3 | Resistor | 22kΩ | |
+| R4 | Resistor | 47kΩ | |
+| R5 | Resistor | 10kΩ | |
+| R6 | Resistor | 1kΩ | |
+| R7 | Resistor | 10kΩ | |
+| R8 | Resistor | 150kΩ | |
+| R9 | Resistor | 100kΩ | |
+| R10 | Resistor | 1MΩ | |
+| R11 | Resistor | 100kΩ | |
+| R12 | Resistor | 150kΩ | |
+| R13 | Resistor | 47kΩ | |
+| R14 | Resistor | 1kΩ | |
+| R15 | Resistor | 1kΩ | |
+| R16 | Resistor | 22kΩ | |
+| R17 | Resistor | 6.8kΩ | |
+| R18 | Resistor | 68kΩ | |
+| R19 | Resistor | 47kΩ | |
+| R20 | Resistor | 22kΩ | |
+TRIM1 | Semi-fixed resistance | 1kΩ | |
+TRIM2 | Semi-fixed resistance | 50kΩ | |
+TRIM3 | Semi-fixed resistance | 50kΩ | |
+VR1 | Variable resistance | 50kΩA | Board vertical directing 2.5mm pitch |
+VR2 | Variable resistance | 50kΩA | Board vertical directing 2.5mm pitch |
+VR3 | Variable resistance | 50kΩA | Board vertical directing 2.5mm pitch |
 
-### VCAの製作に必要な部品（基板外）
+### Parts required for VCA production (outside the board)
 
-| 部品番号 | デバイス名      | 値/型番   | 備考             |
+Part number | Device name | Value / Model number | Remarks |
 | ---- | ---------- | ------ | -------------- |
-| J1   | 3.5mm ジャック | スイッチつき | Audio In       |
-| J2   | 3.5mm ジャック |        | Audio Out      |
-| J3   | 3.5mm ジャック | スイッチつき | Ext CV         |
-| SW1  | 3P トグルスイッチ |        | EG/Gate Select |
+J1 | 3.5mm Jack | With Switch | Audio In |
+| J2 | 3.5mm Jack | | Audio Out |
+J3 | 3.5mm Jack | With Switch | Ext CV |
+SW1 | 3P toggle switch | | EG / Gate Select |
